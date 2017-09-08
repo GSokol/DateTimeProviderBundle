@@ -1,0 +1,33 @@
+{
+    "name": "gsokol/date-time-provider-bundle",
+    "description": "Symfony bundle for `gsokol/date-time-provider` library",
+    "type": "symfony-bundle",
+    "require": {
+        "php": "^7.0",
+        "gsokol/date-time-provider": "^1.0.1",
+        "symfony/dependency-injection": "^3.0 || ^4.0",
+        "symfony/config": "^3.0 || ^4.0",
+        "symfony/http-kernel": "^3.0 || ^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSokol\\DateTimeProviderBundle\\": ""
+        },
+        "exclude-from-classmap": ["/Tests/"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GSokol\\DateTimeProviderBundle\\Tests\\": "Tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Grigorii Sokolik",
+            "email": "g.sokol99@g-sokol.info"
+        }
+    ]
+}

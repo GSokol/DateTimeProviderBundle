@@ -1,0 +1,4 @@
+/vendor/
+/Tests/tmp/
+.phpcomplete_extended
+composer.lock
