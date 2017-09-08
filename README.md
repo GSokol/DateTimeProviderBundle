@@ -1,6 +1,8 @@
 DateTimeProviderBundle
 ======================
 
+[![Build Status](https://travis-ci.org/GSokol/DateTimeProviderBundle.svg?branch=master)](https://travis-ci.org/GSokol/DateTimeProviderBundle)
+
 Symfony bundle for [gsokol/date-time-provider](https://packagist.org/packages/gsokol/date-time-provider) lib.
 
 # Install
